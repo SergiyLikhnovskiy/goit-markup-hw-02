@@ -4,6 +4,9 @@ body {
 ul {
   list-style-type: none;
 }
+a {
+  text-decoration: none;
+}
 .logo {
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
@@ -12,36 +15,46 @@ ul {
   line-height: 1.16;
   color: #2e2f42;
   text-decoration: none;
+  letter-spacing: 0.03em;
 }
 
 .text-logo {
   color: #4d5ae5;
 }
 .page-nav .link {
-  text-decoration: none;
-  font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 1.5;
+  line-height: 1.5;
   color: #2e2f42;
+  letter-spacing: 0.02em;
+}
+.page-nav :hover {
+  color: #404bbf;
 }
 .address .link {
   font-style: normal;
-  letter-spacing: 1.5;
   color: #2e2f42;
+}
+.address .link:hover {
+  color: #404bbf;
 }
 .title {
   background-color: #2e2f42;
 }
 .title > h1 {
   font-size: 56px;
-  letter-spacing: 1.07;
+  line-height: 1.07;
   color: #ffffff;
   text-align: center;
 }
-.title > button {
+.my-button {
   background-color: #4d5ae5;
   color: #ffffff;
+}
+.my-button {
+  cursor: pointer;
+}
+.my-button:hover {
+  background-color: #404bbf;
 }
 .Features h3 {
   color: #2e2f42;
@@ -62,6 +75,7 @@ ul {
   color: #2e2f42;
   text-align: center;
 }
+
 .team li {
   background-color: #ffffff;
 }
@@ -75,4 +89,52 @@ ul {
 }
 .team p {
   text-align: center;
+}
+.portfolio h2 {
+  font-weight: 700;
+  font-style: "Bold";
+  text-align: center;
+  font-size: 36px;
+  line-height: 1.12;
+  color: #2e2f42;
+}
+.portfolio h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1, 2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.portfolio p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1, 5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.footer {
+  background-color: #2e2f42;
+}
+.logo-footer {
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16;
+  color: #f4f4fd;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+}
+.text-logo-footer {
+  color: #4d5ae5;
+}
+.footer p {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
