@@ -1,5 +1,9 @@
 body {
   font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #FFFFFF;
+
+
 }
 
 ul {
@@ -30,8 +34,9 @@ a {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.page-nav :hover {
-  color: #404bbf;
+.page-nav :hover,
+.page-nav :focus {
+  color: #404bbf;S
 }
 .address .link {
   font-style: normal;
@@ -44,27 +49,41 @@ a {
   background-color: #2e2f42;
 }
 .title > h1 {
-  font-size: 56px;
-  line-height: 1.07;
-  color: #ffffff;
-  text-align: center;
+font-family: 'Roboto';
+font-weight: 700;
+font-size: 56px;
+line-height: 1.1;
+text-align: center;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+
+
 }
 .my-button {
-  background-color: #4d5ae5;
-  color: #ffffff;
+font-family: 'Roboto';
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+background-color: #4D5AE5;
+color: #FFFFFF;
 }
 .my-button {
   cursor: pointer;
 }
-.my-button:hover {
+.my-button:hover,
+.my-button:focus {
   background-color: #404bbf;
 }
-.Features h3 {
-  color: #2e2f42;
-  font-size: 20px;
-  letter-spacing: 1.2;
+.features h3 {
+font-family: 'Roboto';
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2E2F42;
 }
-.Features p {
+.features p {
   color: #434455;
 }
 .team {
@@ -73,29 +92,26 @@ a {
 .team-title {
   letter-spacing: 1.1;
   font-size: 36px;
-  font-style: Bold;
   text-align: center;
   color: #2e2f42;
-  text-align: center;
-}
 
+}
 .team li {
   background-color: #ffffff;
 }
 .team h3 {
-  text-align: center;
-  color: #2e2f42;
-  font-size: 20px;
-  letter-spacing: 1.2;
-  font-style: Medium;
-  font-weight: 500;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+text-align: center;
+letter-spacing: 0.02em;
+color: #2E2F42;
 }
 .team p {
   text-align: center;
 }
 .portfolio h2 {
   font-weight: 700;
-  font-style: "Bold";
   text-align: center;
   font-size: 36px;
   line-height: 1.12;
@@ -103,19 +119,17 @@ a {
 }
 .portfolio h3 {
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 1, 2;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
 .portfolio p {
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1, 5;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
