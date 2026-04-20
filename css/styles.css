@@ -80,7 +80,6 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 color: #fff;
 background-color:#4d5ae5; 
-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 .my-button:hover,
 .my-button:focus{
@@ -132,7 +131,7 @@ font-size: 36px;
 color:#FFFFFF;
 background-color: #FFFFFF;
 }
-.footer-item{
+.footer-section{
  background-color: #2e2f42;
 }
 .footer-text{
@@ -147,7 +146,7 @@ font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #f4f4fd;}
+color:#4d5ae5;}
 .logo-s-footer{
-color: #4d5ae5;
+color: #f4f4fd;
 }
